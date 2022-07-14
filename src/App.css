@@ -36,3 +36,26 @@
     transform: rotate(360deg);
   }
 }
+
+.box{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  flex-direction: column;
+}
+
+.chooseBox{
+  height: fit-content;
+  width: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: 2em;
+  font:bolder;
+  border:3px solid #44cdf0;
+  border-radius: 10px;
+  margin: 12px;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}

@@ -1,0 +1,137 @@
+.gamebox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.title{
+    text-align: center;
+    font-size: 4rem ;
+    font:bolder;
+}
+
+.board{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    border:solid black 1px;
+    background-color: white;
+    position: relative;
+}
+
+.roundrecord{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    border:solid black 1px;
+    background-color: white;
+    position: relative;
+}
+
+.score{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    border:solid black 1rpx;
+    background-color: white;
+}
+
+.play{
+    width: 100%;
+    height: 400px;
+    display: flex;
+    flex-direction: row;
+}
+
+.imgbox{
+    width: 150px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    margin-left:20px;
+    margin-right:40px;
+}
+
+.playerimg{
+    height:150px;
+    width: 150px;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+.player{
+    width:100%;
+    height: 400rpx;
+    display: flex;
+    flex-direction: column;
+}
+
+.gesture{
+    width:125px;
+    height: 125px;
+    display: flex;
+    flex-direction: column;
+    margin:10px;
+}
+
+.robot{
+    width: 100%;
+    height: 400px;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+}
+
+
+.robotimg{
+    height:150px;
+    width: 150px;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    position: relative;
+    bottom: 10px;
+}
+
+.overlay {
+    position: relative;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 150px;
+    width: 150px;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #008CBA;
+}
+
+.gesture:hover .overlay {
+    opacity: 1;
+}
+
+
+.gesturetext {
+    color: white;
+    font-size: 20px;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+  }

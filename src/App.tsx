@@ -1,26 +1,24 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
-
-function App() {
+import { Link } from "react-router-dom";
+import "./App.css"
+export default function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className = 'box'>
+      <h1>Let's Play Rock Paper Scissors Game!</h1>
+        <div className = "chooseBox">
+          <Link to="/game">Play With AI Robot</Link> 
+        </div>
+        <div className = "chooseBox">
+          <Link to="/404">Play With Players</Link>
+        </div>
+        <div className = "chooseBox">
+          <Link to="/404">Settings</Link>
+        </div>
+        <div className = "chooseBox">
+          <Link to="/404">Quit</Link>
+        </div>
+        <div>
+          <img src = {require('./images/gamelogo.png')}></img>
+        </div>
     </div>
   );
 }
-
-export default App;
