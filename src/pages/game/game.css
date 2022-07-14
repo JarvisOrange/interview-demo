@@ -16,9 +16,11 @@
     height: 100px;
     display: flex;
     flex-direction: row;
-    border:solid black 1px;
+    border:solid #44cdf0 5px;
+    border-radius: 10px;
     background-color: white;
     position: relative;
+    margin:15px;
 }
 
 .roundrecord{
@@ -26,18 +28,65 @@
     height: 100%;
     display: flex;
     flex-direction: row;
-    border:solid black 1px;
-    background-color: white;
     position: relative;
 }
 
-.score{
-    width: 50%;
+.roundinfo{
+    width: 70%;
     height: 100%;
     display: flex;
     flex-direction: row;
-    border:solid black 1rpx;
+    position: relative;
+}
+
+.round{
+    width: 20%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-size:2em
+}
+
+
+
+.infobox{
+    width: 80%;
+    height: 100%;
+    display: flex;
+}
+
+.info{
+    width: 33%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size:1.5em;
+}
+
+.info-result{
+    width: 33%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size:2em;
+    color:red;
+    font-weight: bolder;
+}
+
+.score{
+    width: 30%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
     background-color: white;
+    justify-content: center;
+    align-items: center;
+    font-size:2em;
+    font:bold ;
 }
 
 .play{

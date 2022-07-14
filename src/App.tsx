@@ -14,6 +14,9 @@ export default function App() {
           <Link to="/404">Settings</Link>
         </div>
         <div className = "chooseBox">
+          <Link to="/404">About Us</Link>
+        </div>
+        <div className = "chooseBox">
           <Link to="/404">Quit</Link>
         </div>
         <div>
