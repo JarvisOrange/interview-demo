@@ -87,7 +87,6 @@ function PlayerChooseGesture(playerChoose){
           {pWin } : Player VS AI Robot : { rWin}
         </div>
       </div>
-
       <div className = "play">
         <div className='imgbox'>
           <img src={require('../../images/player.png')} alt="player"className = "playerimg"/>
@@ -102,7 +101,6 @@ function PlayerChooseGesture(playerChoose){
           <div className = "gesture" onClick={() => PlayerChooseGesture(2)}>
             <img src={require('../../images/scissors.png')} alt="Scissors"/>
           </div>
-        
         </div>
         <div className = "robot">
           <img src={require('../../images/question.png')} alt="guess" className = 'gesture'/>
@@ -110,7 +108,6 @@ function PlayerChooseGesture(playerChoose){
         <div className = "imgbox">
           <img src={require('../../images/robot.png')} alt="robot" className = "robotimg"/>
         </div>
-
       </div>
       <div>
       </div>
@@ -118,4 +115,5 @@ function PlayerChooseGesture(playerChoose){
   )
 }
  
+
  export default Game;
