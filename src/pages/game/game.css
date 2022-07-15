@@ -82,9 +82,9 @@
     width: 30%;
     height: 100%;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     background-color: white;
-    justify-content: center;
+    justify-content:space-around;
     align-items: center;
     font-size:2em;
     font:bold ;

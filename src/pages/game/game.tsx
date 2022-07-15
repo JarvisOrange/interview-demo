@@ -95,7 +95,8 @@ var gestures = ['Rock','Papers','Scissors']
         </div>
 
         <div className = "score">
-          {pWin } : Player VS AI Robot : { rWin}
+          <div >Score</div>
+          <div>{pWin } : Player VS AI Robot : { rWin}</div>
         </div>
 
       </div>
