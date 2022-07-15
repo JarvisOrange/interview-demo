@@ -16,7 +16,7 @@ export default function App() {
       <LinkButton to = '/404' buttonLine = "Play With Players"></LinkButton>
       <LinkButton to = '/404' buttonLine = "Settings"></LinkButton>
       <LinkButton to = '/404' buttonLine = "About Us"></LinkButton>
-      <LinkButton to = '/game' buttonLine = "Quit"></LinkButton>
+      <LinkButton to = '/404' buttonLine = "Quit"></LinkButton>
         <div>
           <img src = {require('./images/gamelogo.png')}></img>
         </div>

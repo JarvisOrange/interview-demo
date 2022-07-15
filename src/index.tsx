@@ -5,7 +5,6 @@ import {
   Route,
 } from "react-router-dom";
 import App from "./App";
-import Home from "./pages/home/home";
 import Game from "./pages/game/game";
 import Notfound from "./pages/404/404" 
 
@@ -17,7 +16,6 @@ root.render(
     <Routes>
       <Route path="/" element={<App />} />
       <Route path="game" element={<Game />} />
-      <Route path="home" element={<Home />} />
       <Route path="404" element={<Notfound />} />
     </Routes>
   </BrowserRouter>
